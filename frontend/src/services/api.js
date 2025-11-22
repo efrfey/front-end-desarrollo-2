@@ -21,14 +21,6 @@ export async function marcarAsistencia(idClase) {
   return res.json();
 }
 
-<<<<<<< HEAD
-=======
-export async function getClasesByDocente(idDocente) {
-  const res = await fetch(`${API_BASE}/clases/${idDocente}`);
-  return res.json();
-}
-
->>>>>>> b371dffd2409ed1cdb51a83d345f8efdd30bbd47
 // --- INCIDENCIAS ---
 export async function postIncidencia(payload) {
   const res = await fetch(`${API_BASE}/incidencias`, {
@@ -44,16 +36,11 @@ export async function getReporteAsistencias() {
   const res = await fetch(`${API_BASE}/asistencias/reporte/download`);
   const blob = await res.blob();
   const url = window.URL.createObjectURL(blob);
-<<<<<<< HEAD
-=======
-
->>>>>>> b371dffd2409ed1cdb51a83d345f8efdd30bbd47
   const a = document.createElement('a');
   a.href = url;
   a.download = 'reporte_asistencias.xlsx';
   a.click();
 }
-<<<<<<< HEAD
 export async function getClasesByDocente(idDocente) {
   const res = await fetch(`${API_BASE}/clases/${idDocente}`);
   return res.json();
@@ -62,5 +49,3 @@ export async function getClasesByDocente(idDocente) {
   const res = await fetch(`${API_BASE}/clases/${idDocente}`);
   return res.json();
 }
-=======
->>>>>>> b371dffd2409ed1cdb51a83d345f8efdd30bbd47

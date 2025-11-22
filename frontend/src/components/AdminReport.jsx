@@ -2,14 +2,10 @@ import React from 'react';
 import { getReporteAsistencias } from '../services/api';
 
 export default function AdminReport() {
-<<<<<<< HEAD
   return (
     <div className="box">
       <h2>Reporte de Asistencias</h2>
       <button onClick={getReporteAsistencias}>Descargar Excel</button>
     </div>
   );
-=======
- 
->>>>>>> b371dffd2409ed1cdb51a83d345f8efdd30bbd47
 }
