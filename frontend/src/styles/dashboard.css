@@ -1,0 +1,82 @@
+
+/* --- CONTENEDOR GENERAL --- */
+.dashboard-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* --- TITULOS --- */
+h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #2b2b2b;
+}
+
+h2 {
+  color: #3a3a3a;
+  margin-bottom: 10px;
+}
+
+/* --- CARD/BOX --- */
+.box {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+  transition: 0.2s ease;
+}
+
+.box:hover {
+  transform: translateY(-3px);
+}
+
+/* --- TABLA --- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+thead {
+  background: #0047ab;
+  color: white;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* --- BOTONES --- */
+button {
+  padding: 8px 12px;
+  background: #0047ab;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #003b91;
+}
+
+/* --- INPUTS --- */
+input {
+  padding: 10px;
+  width: 230px;
+  border: 2px solid #d1d1d1;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+input:focus {
+  border-color: #0047ab;
+  outline: none;
+}
